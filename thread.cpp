@@ -17,9 +17,10 @@ typedef struct {
 } image_type;
 
 image_type Grab(){ //Imports image and places it into memory
+
+    //std::cout << count++ << std::endl;
     //STB_Image library: Read in an image as unsigned char
-    unsigned char *img = stbi_load("inputFull.png", &width, &height, &channels, 0);
-    std::cout << width << std::endl;
+    unsigned char *img = stbi_load("InputMed.png", &width, &height, &channels, 0);
     //STB_Image Error checking from example
     if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
     image_type image;
@@ -28,7 +29,10 @@ image_type Grab(){ //Imports image and places it into memory
 }
 
 void analyze(image_type image){ //Grabs image via pointer and performs transpose
-  std::cout << count++ << std::endl;
+  for (long int i = 0; i < 1000000; ++i){
+      int a = i;
+    }
+ // std::cout << count++ << std::endl;
   unsigned char* img = image.img_data;
   //Allocate space for new image
      //Allocate space for new image
@@ -45,8 +49,9 @@ void analyze(image_type image){ //Grabs image via pointer and performs transpose
   
   int i = 0;
   //Taken from STB_Image library example => used to read image to array Out[] for processing
-  for(unsigned char *p = img; p != img + img_size; p += channels) { //It's segfaulting here
 
+  for(unsigned char *p = img; p != img + img_size; p += channels) { //It's segfaulting here
+   
     //Path of the pointer to this loop:
     // 1 - grab places it into an image_type struct
     // 2 - digitizer() puts that struct into a buffer
@@ -54,7 +59,8 @@ void analyze(image_type image){ //Grabs image via pointer and performs transpose
     // 4 - analyze() takes in that image_type and unpacks the img_data ptr to the img variable
     // 5 - this loop segfaults, but works without threading overhead and the digitize/tracker functions
 
-  out[i]   = (uint8_t)*(p);
+  //std::cout << *(p) << std::endl;
+ out[i]   = (uint8_t)*(p);
   out[i+1] = (uint8_t)*(p+1);
   out[i+2] = (uint8_t)*(p+2); 
   i += channels;
@@ -131,7 +137,7 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
   image_type dig_image;
   int tail = 0;
   
-    while(true){
+  while(true){
     dig_image = Grab(); //Grab() Takes care of repeatedlty grabbing the image into memory
     pthread_mutex_lock(&buflock);
     
@@ -140,7 +146,8 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
     }
     pthread_mutex_unlock(&buflock);
 
-    frame_buf[tail % MAX] = dig_image; 
+    frame_buf[tail % MAX] = dig_image;
+    tail = tail + 1; 
     pthread_mutex_lock(&buflock);
     bufavail = bufavail - 1;
 
@@ -149,7 +156,7 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
       pthread_cond_broadcast(&buf_notfull);
     }
   }
-    return 0; 
+  return 0; 
 }
 
 void* tracker(void* a) { //handles mutex locking and calls anaylyze() for processing       
@@ -158,23 +165,21 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
   
   while(true){
 
-  pthread_mutex_lock(&buflock);
-  if (bufavail == MAX){
-    pthread_cond_wait(&buf_notfull, &buflock);
-  }
-  pthread_mutex_unlock(&buflock);
+    pthread_mutex_lock(&buflock);
+    if (bufavail == MAX){
+      pthread_cond_wait(&buf_notfull, &buflock);
+    }
+    pthread_mutex_unlock(&buflock);
 
-  track_image = frame_buf[head % MAX];
-
-  head = head + 1;
-  pthread_mutex_lock(&buflock);
-  bufavail = bufavail + 1;
-  pthread_mutex_unlock(&buflock);
-  if(bufavail > 0){
-    pthread_cond_broadcast(&buf_notempty);
-  }
-
-  analyze(track_image);
+    track_image = frame_buf[head % MAX];
+    head = head + 1;
+    pthread_mutex_lock(&buflock);
+    bufavail = bufavail + 1;
+    pthread_mutex_unlock(&buflock);
+    if(bufavail > 0){
+      pthread_cond_broadcast(&buf_notempty);
+    }
+    analyze(track_image);
   }
   return 0;
 } 
@@ -182,17 +187,18 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
 
 
 int main() {
- pthread_t thread1, thread2;
+ pthread_t Digitize, Tracker;
     /* Create independent threads each of which will execute function */
- pthread_create(&thread1, NULL, digitizer, NULL);
- pthread_create(&thread2, NULL, tracker, NULL);
+ 
+ pthread_create(&Digitize, NULL, digitizer, NULL);
+ pthread_create(&Tracker, NULL, tracker, NULL);
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
      /* the process and all threads before the threads have completed.   */
 
- pthread_join(thread1, NULL);
- pthread_join(thread2, NULL); 
+ pthread_join(Digitize, NULL);
+ pthread_join(Tracker, NULL); 
 
  exit(0);
 }
