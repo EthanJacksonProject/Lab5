@@ -11,27 +11,19 @@
 //Make image values global for ease of use
 int width, height, channels;
 
-unsigned char var;
-
-
 typedef struct {
  unsigned char* img_data;
 } image_type;
 
 image_type Grab(){ //Imports image and places it into memory
-     //STB_Image library: Read in an image as unsigned char
-  unsigned char *img = stbi_load("input.png", &width, &height, &channels, 0);
-     //STB_Image Error checking from example
-     if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
-     image_type image;
-     image.img_data = img;
-
-     var = image.img_data[0];
-     for(int i = 0;i < 1000000; ++i){
-       int a;
-     }
-     return image;
-   }
+    //STB_Image library: Read in an image as unsigned char
+    unsigned char *img = stbi_load("input.png", &width, &height, &channels, 0);
+    //STB_Image Error checking from example
+    if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
+    image_type image;
+    image.img_data = img;
+    return image;
+}
 
 void analyze(image_type image){ //Grabs image via pointer and performs transpose
 
@@ -59,18 +51,19 @@ void analyze(image_type image){ //Grabs image via pointer and performs transpose
     // 3 - tracker() unpacks that buffer and retrieves a image_type
     // 4 - analyze() takes in that image_type and unpacks the img_data ptr to the img variable
     // 5 - this loop segfaults, but works without threading overhead and the digitize/tracker functions
-    out[i]   = (uint8_t)*(p);
-    out[i+1] = (uint8_t)*(p+1);
-    out[i+2] = (uint8_t)*(p+2); 
-    i += channels;
-  }
-  
+    
+  out[i]   = (uint8_t)*(p);
+  out[i+1] = (uint8_t)*(p+1);
+  out[i+2] = (uint8_t)*(p+2); 
+  i += channels;
+}
+
 
      //Divide input string to each color layer to be processed individually
-  unsigned char red[width*height];
-  unsigned char green[width*height];
-  unsigned char blue[width*height];
-  int x = 0;
+unsigned char red[width*height];
+unsigned char green[width*height];
+unsigned char blue[width*height];
+int x = 0;
      for(int i = 0; i < img_size; i+=3){ // i+=3 to step over color channels
       red[x]   = out[i];
       green[x] = out[i + 1];
@@ -150,14 +143,14 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
    // std::cout<< tail << std::endl;
     pthread_mutex_lock(&buflock);
     bufavail = bufavail - 1;
-  
+
     pthread_mutex_unlock(&buflock);
     if(bufavail < MAX){
       pthread_cond_broadcast(&buf_notfull);
     }
-      
-  return 0; 
-}
+
+    return 0; 
+  }
 
 void* tracker(void* a) { //handles mutex locking and calls anaylyze() for processing       
   image_type track_image;
@@ -165,29 +158,30 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
   int i = 0;
   
 
-    pthread_mutex_lock(&buflock);
-    if (bufavail == MAX)
-      pthread_cond_wait(&buf_notfull, &buflock);
-    pthread_mutex_unlock(&buflock);
+  pthread_mutex_lock(&buflock);
+  if (bufavail == MAX){
+    pthread_cond_wait(&buf_notfull, &buflock);
+  }
+  pthread_mutex_unlock(&buflock);
 
-    track_image = frame_buf[head % MAX];
+  track_image = frame_buf[head % MAX];
 
-    head = head + 1;
-    pthread_mutex_lock(&buflock);
-    bufavail = bufavail + 1;
-    pthread_mutex_unlock(&buflock);
-    if(bufavail > 0)
-      pthread_cond_broadcast(&buf_notempty);
+  head = head + 1;
+  pthread_mutex_lock(&buflock);
+  bufavail = bufavail + 1;
+  pthread_mutex_unlock(&buflock);
+  if(bufavail > 0){
+    pthread_cond_broadcast(&buf_notempty);
+  }
 
-    analyze(track_image);
+  analyze(track_image);
 
   return 0;
 } 
 
 
 
-int main()
-{
+int main() {
  pthread_t thread1, thread2;
     /* Create independent threads each of which will execute function */
  pthread_create(&thread1, NULL, digitizer, NULL);
