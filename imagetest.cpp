@@ -20,8 +20,6 @@ typedef struct {
 int FB_Max = 10;
 image_type frame_buf[10];
 
-int count = 0;
-
 image_type Grab(){ //Imports image and places it into memory
 
      //STB_Image library: Read in an image as unsigned char

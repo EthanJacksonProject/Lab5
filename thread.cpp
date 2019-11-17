@@ -18,7 +18,7 @@ typedef struct {
 
 image_type Grab(){ //Imports image and places it into memory
     //STB_Image library: Read in an image as unsigned char
-    unsigned char *img = stbi_load("inputFull.png", &width, &height, &channels, 0);
+    unsigned char *img = stbi_load("inputSmall.png", &width, &height, &channels, 0);
     std::cout << width << std::endl;
     //STB_Image Error checking from example
     if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
