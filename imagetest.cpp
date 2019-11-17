@@ -17,23 +17,25 @@ typedef struct {
  unsigned char* img_data;
 } image_type;
 
-image_type frame_buf[8];
+int FB_Max = 10;
+image_type frame_buf[10];
+
+int count = 0;
 
 image_type Grab(){ //Imports image and places it into memory
 
      //STB_Image library: Read in an image as unsigned char
  unsigned char *img = stbi_load("input.png", &width, &height, &channels, 0);
- test = img;
-
-
      //STB_Image Error checking from example
-     if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
-     image_type image;
-     image.img_data = img;
-     frame_buf[0] = image;
-     return image;
-
-   }
+     if(img == NULL) {
+      printf("Error in loading the image\n");
+      exit(1);
+     } //Error Checking, copied from stb_image library example
+    image_type image;
+    image.img_data = img;
+    
+   return image;
+ }
 
 void analyze(image_type a){ //Grabs image via pointer and performs transpose
   
@@ -106,17 +108,31 @@ void analyze(image_type a){ //Grabs image via pointer and performs transpose
   }
 
      //STB_Image: Create output image and free memory and allocated space
-  stbi_write_png("Output.png", width, height, channels, Recon, width * channels);
+  stbi_write_png("output.png", width, height, channels, Recon, width * channels);
+  std::cout << count++ << std::endl;
   stbi_image_free(img);
   free(new_img);
   return;
 }
 
+void Digitizer(){
+  image_type image;
+  for(int i = 0; i < FB_Max; ++i){
+      image = Grab();
+     frame_buf[i] = image;
+   }
+}
+void Tracker(){
+  for(int i = 0; i < FB_Max; ++i){
+      analyze(frame_buf[i]);
+   }
+}
+
+
 int main(){
   
-  image_type img = Grab();
-  img = frame_buf[0];
-  analyze(img);
+  Digitizer();
+  Tracker();
   return 0;
   
 }
