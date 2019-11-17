@@ -19,7 +19,6 @@ typedef struct {
 } image_type;
 
 image_type Grab(){ //Imports image and places it into memory
-  std::cout<<"Grab"<<std::endl;
      //STB_Image library: Read in an image as unsigned char
   unsigned char *img = stbi_load("input.png", &width, &height, &channels, 0);
      //STB_Image Error checking from example
@@ -34,8 +33,9 @@ image_type Grab(){ //Imports image and places it into memory
      return image;
    }
 
-void analyze(unsigned char *img){ //Grabs image via pointer and performs transpose
+void analyze(image_type image){ //Grabs image via pointer and performs transpose
 
+  unsigned char* img = image.img_data;
   //Allocate space for new image
      //Allocate space for new image
   size_t img_size = width * height * channels;
@@ -51,7 +51,14 @@ void analyze(unsigned char *img){ //Grabs image via pointer and performs transpo
   
   int i = 0;
   //Taken from STB_Image library example => used to read image to array Out[] for processing
-  for(unsigned char *p = img; p != img + img_size; p += channels) {
+  for(unsigned char *p = img; p != img + img_size; p += channels) { //It's segfaulting here
+
+    //Path of the pointer to this loop:
+    // 1 - grab places it into an image_type struct
+    // 2 - digitizer() puts that struct into a buffer
+    // 3 - tracker() unpacks that buffer and retrieves a image_type
+    // 4 - analyze() takes in that image_type and unpacks the img_data ptr to the img variable
+    // 5 - this loop segfaults, but works without threading overhead and the digitize/tracker functions
     out[i]   = (uint8_t)*(p);
     out[i+1] = (uint8_t)*(p+1);
     out[i+2] = (uint8_t)*(p+2); 
@@ -122,7 +129,7 @@ pthread_cond_t buf_notempty = PTHREAD_COND_INITIALIZER;
 /* a mutex with the condition.                                          */
 //int bufavail = 0;
 int bufavail = MAX;
-unsigned char* frame_buf[MAX];
+image_type frame_buf[MAX];
 pthread_mutex_t buflock= PTHREAD_MUTEX_INITIALIZER;
 
 void* digitizer(void* a) { //handles mutex locking and calls grab() for processing       
@@ -133,26 +140,28 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
     dig_image = Grab(); //Grab() Takes care of repeatedlty grabbing the image into memory
     pthread_mutex_lock(&buflock);
     
-    if (bufavail == 0)
+    if (bufavail == 0){
       pthread_cond_wait(&buf_notempty,&buflock);     
+    }
     pthread_mutex_unlock(&buflock);
 
-    frame_buf[tail % MAX] = dig_image.img_data;
+    frame_buf[tail % MAX] = dig_image;
     tail = tail + 1;
    // std::cout<< tail << std::endl;
     pthread_mutex_lock(&buflock);
     bufavail = bufavail - 1;
-    std::cout<< bufavail << std::endl;
+  
     pthread_mutex_unlock(&buflock);
-    if(bufavail < MAX)
+    if(bufavail < MAX){
       pthread_cond_broadcast(&buf_notfull);
+    }
     i++;
   }    
   return 0; 
 }
 
 void* tracker(void* a) { //handles mutex locking and calls anaylyze() for processing       
-  unsigned char* track_image;
+  image_type track_image;
   int head = 0;
   int i = 0;
   while( i < 100) {
