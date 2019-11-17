@@ -10,6 +10,7 @@
 
 //Make image values global for ease of use
 int width, height, channels;
+int count = 0;
 
 typedef struct {
  unsigned char* img_data;
@@ -17,7 +18,8 @@ typedef struct {
 
 image_type Grab(){ //Imports image and places it into memory
     //STB_Image library: Read in an image as unsigned char
-    unsigned char *img = stbi_load("input.png", &width, &height, &channels, 0);
+    unsigned char *img = stbi_load("inputFull.png", &width, &height, &channels, 0);
+    std::cout << width << std::endl;
     //STB_Image Error checking from example
     if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
     image_type image;
@@ -26,7 +28,7 @@ image_type Grab(){ //Imports image and places it into memory
 }
 
 void analyze(image_type image){ //Grabs image via pointer and performs transpose
-
+  std::cout << count++ << std::endl;
   unsigned char* img = image.img_data;
   //Allocate space for new image
      //Allocate space for new image
@@ -51,7 +53,7 @@ void analyze(image_type image){ //Grabs image via pointer and performs transpose
     // 3 - tracker() unpacks that buffer and retrieves a image_type
     // 4 - analyze() takes in that image_type and unpacks the img_data ptr to the img variable
     // 5 - this loop segfaults, but works without threading overhead and the digitize/tracker functions
-    
+
   out[i]   = (uint8_t)*(p);
   out[i+1] = (uint8_t)*(p+1);
   out[i+2] = (uint8_t)*(p+2); 
@@ -120,7 +122,7 @@ pthread_cond_t buf_notempty = PTHREAD_COND_INITIALIZER;
 
 /* For safe condition variable usage, must use a boolean predicate and  */
 /* a mutex with the condition.                                          */
-//int bufavail = 0;
+//int bufavail = 0; //this line was included in the pseudocode..... why?
 int bufavail = MAX;
 image_type frame_buf[MAX];
 pthread_mutex_t buflock= PTHREAD_MUTEX_INITIALIZER;
@@ -128,8 +130,8 @@ pthread_mutex_t buflock= PTHREAD_MUTEX_INITIALIZER;
 void* digitizer(void* a) { //handles mutex locking and calls grab() for processing       
   image_type dig_image;
   int tail = 0;
-  int i = 0;
   
+    while(true){
     dig_image = Grab(); //Grab() Takes care of repeatedlty grabbing the image into memory
     pthread_mutex_lock(&buflock);
     
@@ -138,9 +140,7 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
     }
     pthread_mutex_unlock(&buflock);
 
-    frame_buf[tail % MAX] = dig_image;
-    tail = tail + 1;
-   // std::cout<< tail << std::endl;
+    frame_buf[tail % MAX] = dig_image; 
     pthread_mutex_lock(&buflock);
     bufavail = bufavail - 1;
 
@@ -148,15 +148,15 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
     if(bufavail < MAX){
       pthread_cond_broadcast(&buf_notfull);
     }
-
-    return 0; 
   }
+    return 0; 
+}
 
 void* tracker(void* a) { //handles mutex locking and calls anaylyze() for processing       
   image_type track_image;
   int head = 0;
-  int i = 0;
   
+  while(true){
 
   pthread_mutex_lock(&buflock);
   if (bufavail == MAX){
@@ -175,7 +175,7 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
   }
 
   analyze(track_image);
-
+  }
   return 0;
 } 
 

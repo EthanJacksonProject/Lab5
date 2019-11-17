@@ -10,7 +10,7 @@
 
 //Make image values global for ease of use
 int width, height, channels;
-
+int count = 0;
 unsigned char* test;
 
 typedef struct {
@@ -25,7 +25,8 @@ int count = 0;
 image_type Grab(){ //Imports image and places it into memory
 
      //STB_Image library: Read in an image as unsigned char
- unsigned char *img = stbi_load("input.png", &width, &height, &channels, 0);
+ unsigned char *img = stbi_load("inputSmall.png", &width, &height, &channels, 0);
+ std::cout<<width<<std::endl;
      //STB_Image Error checking from example
      if(img == NULL) {
       printf("Error in loading the image\n");
@@ -38,7 +39,7 @@ image_type Grab(){ //Imports image and places it into memory
  }
 
 void analyze(image_type a){ //Grabs image via pointer and performs transpose
-  
+  std::cout << count++ << std::endl;
   unsigned char *img = a.img_data;
 
      //Allocate space for new image
@@ -109,7 +110,6 @@ void analyze(image_type a){ //Grabs image via pointer and performs transpose
 
      //STB_Image: Create output image and free memory and allocated space
   stbi_write_png("output.png", width, height, channels, Recon, width * channels);
-  std::cout << count++ << std::endl;
   stbi_image_free(img);
   free(new_img);
   return;
