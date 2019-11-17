@@ -136,7 +136,7 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
   image_type dig_image;
   int tail = 0;
   int i = 0;
-  while( i < 100) {
+  
     dig_image = Grab(); //Grab() Takes care of repeatedlty grabbing the image into memory
     pthread_mutex_lock(&buflock);
     
@@ -155,8 +155,7 @@ void* digitizer(void* a) { //handles mutex locking and calls grab() for processi
     if(bufavail < MAX){
       pthread_cond_broadcast(&buf_notfull);
     }
-    i++;
-  }    
+      
   return 0; 
 }
 
@@ -164,7 +163,7 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
   image_type track_image;
   int head = 0;
   int i = 0;
-  while( i < 100) {
+  
 
     pthread_mutex_lock(&buflock);
     if (bufavail == MAX)
@@ -182,9 +181,6 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
 
     analyze(track_image);
 
-    i++;
-
-  }
   return 0;
 } 
 
