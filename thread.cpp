@@ -20,7 +20,7 @@ image_type Grab(){ //Imports image and places it into memory
 
     //std::cout << count++ << std::endl;
     //STB_Image library: Read in an image as unsigned char
-    unsigned char *img = stbi_load("InputMed.png", &width, &height, &channels, 0);
+    unsigned char *img = stbi_load("inputFull.png", &width, &height, &channels, 0);
     //STB_Image Error checking from example
     if(img == NULL) {printf("Error in loading the image\n");exit(1);} //Error Checking, copied from stb_image library example
     image_type image;
@@ -29,9 +29,7 @@ image_type Grab(){ //Imports image and places it into memory
 }
 
 void analyze(image_type image){ //Grabs image via pointer and performs transpose
-  for (long int i = 0; i < 1000000; ++i){
-      int a = i;
-    }
+ 
  // std::cout << count++ << std::endl;
   unsigned char* img = image.img_data;
   //Allocate space for new image
@@ -189,9 +187,17 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
 int main() {
  pthread_t Digitize, Tracker;
     /* Create independent threads each of which will execute function */
+
+const char d[] ="Digitize";
+
+const char t[] ="Tracker";
+
  
  pthread_create(&Digitize, NULL, digitizer, NULL);
+pthread_setname_np(Digitize,"Digitize"); 
+
  pthread_create(&Tracker, NULL, tracker, NULL);
+pthread_setname_np(Tracker,"Tracker"); 
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
