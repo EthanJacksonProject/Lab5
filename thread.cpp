@@ -169,7 +169,7 @@ int main() {
  int pthread_setname_np(Digitize, "Digitizer"); //Stat Tracking
  
  pthread_create(&Tracker, NULL, tracker, NULL);
- int pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
+ pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
