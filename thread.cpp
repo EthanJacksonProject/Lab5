@@ -29,7 +29,9 @@ image_type Grab(){ //Imports image and places it into memory
 }
 
 void analyze(image_type image){ //Grabs image via pointer and performs transpose
-  
+  for (long int i = 0; i < 1000000; ++i){
+      int a = i;
+    }
  // std::cout << count++ << std::endl;
   unsigned char* img = image.img_data;
   //Allocate space for new image
@@ -43,16 +45,11 @@ void analyze(image_type image){ //Grabs image via pointer and performs transpose
     exit(1);
   }
      //Allocate space for input to live as an array in memory for processing
-  //unsigned char out[img_size];
-  unsigned char red[width*height];
-unsigned char green[width*height];
-unsigned char blue[width*height];
-    
-
-
+  unsigned char out[img_size];
   
+  int i = 0;
   //Taken from STB_Image library example => used to read image to array Out[] for processing
-int k = 0;
+
   for(unsigned char *p = img; p != img + img_size; p += channels) { //It's segfaulting here
    
     //Path of the pointer to this loop:
@@ -63,41 +60,47 @@ int k = 0;
     // 5 - this loop segfaults, but works without threading overhead and the digitize/tracker functions
 
   //std::cout << *(p) << std::endl;
- red[k]   = (uint8_t)*(p);
-  green[k] = (uint8_t)*(p+1);
-  blue[k++] = (uint8_t)*(p+2); 
+ out[i]   = (uint8_t)*(p);
+  out[i+1] = (uint8_t)*(p+1);
+  out[i+2] = (uint8_t)*(p+2); 
+  i += channels;
 }
 
 
      //Divide input string to each color layer to be processed individually
+unsigned char red[width*height];
+unsigned char green[width*height];
+unsigned char blue[width*height];
+int x = 0;
+     for(int i = 0; i < img_size; i+=3){ // i+=3 to step over color channels
+      red[x]   = out[i];
+      green[x] = out[i + 1];
+      blue[x]  = out[i + 2];
+          x++; //Iterate to build color layers
+        }
 
-      //Optimize this into other loop
-   
      //Perform transpose of each color layer => rotates image CW 90 degrees
         int N = height;  
 
         unsigned char blueT[width*height];
-        unsigned char greenT[width*height];
-        unsigned char redT[width*height];
         for(int i = 0; i < N; i++){
           for(int j = 0; j < N; j++){
            blueT[j + (i * N)] = blue[(j * N) + i];
-           greenT[ j + (i * N)] = green[(j * N) + i];
-           redT[j + ( i * N)] = red[(j * N) + i];
          }
        }
 
+       unsigned char greenT[width*height];
+       for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+         greenT[ j + (i * N)] = green[(j * N) + i];
+       }
+     }
 
-   unsigned char redTR[width*height];
-   unsigned char blueTR[width*height];
-   unsigned char greenTR[width*height];
-   k = 0;
-   for(int row = 0; row < height; ++row){
-    for(int index = width-1; index >= 0; --index){
-      redTR[width*row + index] = redT[k];
-      blueTR[width*row + index] = blueT[k];
-      greenTR[width*row + index] = greenT[k++];
-    }
+     unsigned char redT[width*height];
+     for(int i = 0; i < N; i++){ 
+      for(int j = 0; j < N; j++){
+       redT[j + ( i * N)] = red[(j * N) + i];
+     }
    }
 
      //Rebuilds processed output image from each color layer
