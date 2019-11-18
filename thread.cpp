@@ -172,7 +172,7 @@ int main() {
 
  //const char t[] = "Tracker";
  pthread_create(&Tracker, NULL, tracker, NULL);
- pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
+ int pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
