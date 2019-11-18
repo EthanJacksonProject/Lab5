@@ -166,13 +166,13 @@ int main() {
     /* Create independent threads each of which will execute function */
  
 
- const char d[] = "Digitizer";
+ //const char d[] = "Digitizer";
  pthread_create(&Digitize, NULL, digitizer, NULL);
- int pthread_setname_np(&Digitize, d); //Stat Tracking
+ int pthread_setname_np(Digitize, 'Digitizer'); //Stat Tracking
 
- const char t[] = "Tracker";
+ //const char t[] = "Tracker";
  pthread_create(&Tracker, NULL, tracker, NULL);
- pthread_setname_np(&Tracker, t); //Stat Tracking
+ pthread_setname_np(Tracker, 'Tracker'); //Stat Tracking
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
