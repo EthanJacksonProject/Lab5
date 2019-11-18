@@ -165,11 +165,14 @@ int main() {
  pthread_t Digitize, Tracker;
     /* Create independent threads each of which will execute function */
  
+
+ char d[] = "Digitizer";
  pthread_create(&Digitize, NULL, digitizer, NULL);
- int pthread_setname_np(Digitize, "Digitizer"); //Stat Tracking
- 
+ int pthread_setname_np(Digitize, d); //Stat Tracking
+
+ char t[] = "Tracker";
  pthread_create(&Tracker, NULL, tracker, NULL);
- pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
+ int pthread_setname_np(Tracker, t); //Stat Tracking
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
