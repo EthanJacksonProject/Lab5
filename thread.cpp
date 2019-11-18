@@ -168,11 +168,11 @@ int main() {
 
  //const char d[] = "Digitizer";
  pthread_create(&Digitize, NULL, digitizer, NULL);
- int pthread_setname_np(Digitize, "Digitizer"); //Stat Tracking
+ int val = pthread_setname_np(Digitize, "Digitizer"); //Stat Tracking
 
  //const char t[] = "Tracker";
  pthread_create(&Tracker, NULL, tracker, NULL);
- int pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
+ int val2 = pthread_setname_np(Tracker, "Tracker"); //Stat Tracking
 
      /* Wait till threads are complete before main continues. Unless we  */
      /* wait we run the risk of executing an exit which will terminate   */
