@@ -23,7 +23,7 @@ image_type frame_buf[10];
 image_type Grab(){ //Imports image and places it into memory
 
      //STB_Image library: Read in an image as unsigned char
- unsigned char *img = stbi_load("InputMed.png", &width, &height, &channels, 0);
+ unsigned char *img = stbi_load("inputFull.png", &width, &height, &channels, 0);
      //STB_Image Error checking from example
      if(img == NULL) {
       printf("Error in loading the image\n");
@@ -96,13 +96,26 @@ void analyze(image_type a){ //Grabs image via pointer and performs transpose
        redT[j + ( i * N)] = red[(j * N) + i];
      }
    }
+   unsigned char redTR[width*height];
+   unsigned char blueTR[width*height];
+   unsigned char greenTR[width*height];
+
+   int k = 0;
+   for(int row = 0; row < height; ++row){
+    for(int index = width-1; index >= 0; --index){
+      redTR[width*row + index] = redT[k];
+      blueTR[width*row + index] = blueT[k];
+      greenTR[width*row + index] = greenT[k++];
+    }
+   }
 
      //Rebuilds processed output image from each color layer
    unsigned char Recon[width*height*channels];
+
    for(int i = 0; i < width * height; ++i){
-    Recon[3 * i+0] = redT[i];
-    Recon[3 * i+1] = greenT[i];
-    Recon[3 * i+2] = blueT[i];
+    Recon[3 * i+0] = redTR[i];
+    Recon[3 * i+1] = greenTR[i];
+    Recon[3 * i+2] = blueTR[i];
   }
 
      //STB_Image: Create output image and free memory and allocated space

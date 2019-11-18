@@ -103,6 +103,18 @@ int x = 0;
      }
    }
 
+   unsigned char redTR[width*height];
+   unsigned char blueTR[width*height];
+   unsigned char greenTR[width*height];
+   int k = 0;
+   for(int row = 0; row < height; ++row){
+    for(int index = width-1; index >= 0; --index){
+      redTR[width*row + index] = redT[k];
+      blueTR[width*row + index] = blueT[k];
+      greenTR[width*row + index] = greenT[k++];
+    }
+   }
+
      //Rebuilds processed output image from each color layer
    unsigned char Recon[width*height*channels];
    for(int i = 0; i < width * height; ++i){
