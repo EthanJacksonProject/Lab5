@@ -156,7 +156,7 @@ void* tracker(void* a) { //handles mutex locking and calls anaylyze() for proces
     }
     analyze(track_image); //Pass image_type object to analyze() for processing
   }
-  return;
+  return 0;
 } 
 
 
