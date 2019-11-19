@@ -1,0 +1,1099 @@
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 59.7 us,  2.6 sy,  0.2 ni, 37.2 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 53.3  0.5   1:15.17 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:08.82 Digitizer
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 50.0  0.5   1:15.22 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:08.82 Digitizer
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:15.30 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:08.84 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:15.40 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:08.84 Digitizer
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:15.47 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:08.86 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.9  0.5   1:15.57 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 R  0.0  0.5   0:08.86 Digitizer
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:15.64 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:08.88 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:15.73 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 R  0.0  0.5   0:08.88 Digitizer
+
+top - 17:48:53 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:15.81 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:08.90 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:15.90 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R  9.1  0.5   0:08.91 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:15.98 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S  9.1  0.5   0:08.92 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:16.06 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:08.93 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:16.16 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:08.94 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:16.24 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R  9.1  0.5   0:08.95 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:16.33 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:08.96 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:16.41 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:08.97 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.9  0.5   1:16.51 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S  9.1  0.5   0:08.98 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:54 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 60.0  0.5   1:16.57 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:08.99 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:16.66 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.00 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:16.73 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.01 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:16.83 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.01 Digitizer
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 63.6  0.5   1:16.90 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 18.2  0.5   0:09.03 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:16.99 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.03 Digitizer
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:17.07 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 20.0  0.5   0:09.05 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:17.17 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.05 Digitizer
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 90.0 us, 10.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 63.6  0.5   1:17.24 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 27.3  0.5   0:09.08 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:17.35 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.08 Digitizer
+
+top - 17:48:55 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188344 used,   723392 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180192 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:17.42 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.09 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 87.5 us, 12.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.9  0.5   1:17.52 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.09 Digitizer
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 60.0  0.5   1:17.58 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.11 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:17.67 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.11 Digitizer
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:17.75 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 20.0  0.5   0:09.13 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:17.86 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.13 Digitizer
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:17.93 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.15 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.34, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:18.02 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.15 Digitizer
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:18.09 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.17 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:18.20 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.17 Digitizer
+
+top - 17:48:56 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:18.27 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.19 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:18.37 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.19 Digitizer
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:18.45 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:09.21 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:18.54 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.21 Digitizer
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:18.62 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.23 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.9  0.5   1:18.72 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.23 Digitizer
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 90.0 us, 10.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 60.0  0.5   1:18.78 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.25 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:18.88 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 R  0.0  0.5   0:09.25 Digitizer
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:18.96 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.27 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:19.04 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.27 Digitizer
+
+top - 17:48:57 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:19.12 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.29 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:19.21 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 R  0.0  0.5   0:09.29 Digitizer
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:19.29 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.30 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 90.0 us, 10.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:19.38 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.31 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:19.47 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.32 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:19.54 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.33 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:19.63 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S  9.1  0.5   0:09.34 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:19.71 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.35 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:19.80 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.36 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:58 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188332 used,   723404 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180212 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:19.88 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R  9.1  0.5   0:09.37 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:19.98 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.38 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 54.5  0.5   1:20.04 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 R  0.0  0.5   0:09.38 Digitizer
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:20.13 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.39 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:20.21 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.40 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:20.30 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.41 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:20.38 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 20.0  0.5   0:09.43 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:20.47 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.43 Digitizer
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:20.54 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.44 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:20.63 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:09.46 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:48:59 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:20.71 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.47 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:20.79 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.48 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:20.87 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.49 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:20.95 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.50 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:21.03 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.50 Digitizer
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 87.5 us, 12.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:21.12 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S  9.1  0.5   0:09.51 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:21.20 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 20.0  0.5   0:09.53 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:21.29 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.53 Digitizer
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:21.37 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 20.0  0.5   0:09.55 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:21.45 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.55 Digitizer
+
+top - 17:49:00 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:21.54 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 R  0.0  0.5   0:09.55 Digitizer
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:21.63 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:09.57 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:21.70 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.58 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:21.78 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.59 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:21.87 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.60 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 81.8  0.5   1:21.96 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S  9.1  0.5   0:09.61 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 88.9 us, 11.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:22.04 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 10.0  0.5   0:09.62 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.32, 1.00, 0.63
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:22.13 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.63 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   2 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 80.0  0.5   1:22.21 Tracker
+ 2328 ethan     20   0  163780  18920   1916 R 20.0  0.5   0:09.65 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:22.31 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.65 Digitizer
+
+top - 17:49:01 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188304 used,   723432 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180240 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 63.6  0.5   1:22.38 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:09.67 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:22.48 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.67 Digitizer
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 60.0  0.5   1:22.54 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.69 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:22.64 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.69 Digitizer
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 72.7  0.5   1:22.72 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:09.71 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:22.82 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.71 Digitizer
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 63.6  0.5   1:22.89 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 18.2  0.5   0:09.73 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:22.99 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.73 Digitizer
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:23.06 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.75 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:02 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 99.9  0.5   1:23.16 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.75 Digitizer
+
+top - 17:49:03 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:23.23 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 10.0  0.5   0:09.76 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:03 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.9  0.5   1:23.33 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.76 Digitizer
+
+top - 17:49:03 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 70.0  0.5   1:23.40 Tracker
+ 2328 ethan     20   0  163780  18920   1916 S 20.0  0.5   0:09.78 Digitizer
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+
+top - 17:49:03 up 11 min,  1 user,  load average: 1.37, 1.01, 0.64
+Threads:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 90.0 us, 10.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  3642112 total,  1730376 free,  1188284 used,   723452 buff/cache
+KiB Swap:   483800 total,   483800 free,        0 used.  2180260 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 2329 ethan     20   0  163780  18920   1916 R 90.0  0.5   1:23.49 Tracker
+ 2327 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:00.00 a.out
+ 2328 ethan     20   0  163780  18920   1916 S  0.0  0.5   0:09.78 Digitizer
