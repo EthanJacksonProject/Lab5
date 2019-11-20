@@ -1,3 +1,12 @@
+/*
+Ethan Jackson
+ECE 3057
+Lab 4
+November 16, 2019
+
+Analyzes threading performance in image processing
+*/
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
